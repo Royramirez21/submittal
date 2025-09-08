@@ -1,19 +1,23 @@
-# 🎈 Blank app template
+# 🏗️ Division 07 Roofing Submittal Generator
 
-A simple Streamlit app template for you to modify!
+A simple Streamlit application that leverages OpenAI to draft CSI Division 07 roofing submittals.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
-
-### How to run it on your own machine
+## How to run
 
 1. Install the requirements
 
-   ```
-   $ pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
    ```
 
-2. Run the app
+2. Set your OpenAI API key
 
+   ```bash
+   export OPENAI_API_KEY="your-api-key"
    ```
-   $ streamlit run streamlit_app.py
+
+3. Run the app
+
+   ```bash
+   streamlit run streamlit_app.py
    ```
